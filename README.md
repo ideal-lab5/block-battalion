@@ -22,15 +22,9 @@ Secondly, the game event clock is only **partially-interactive** rather than com
 
 ### Gameplay
 
-Current gameplay is limited.
+Current gameplay is limited. You can play it at https://blockbattalion.idealabs.network. It if isn't working, send a message on [discord](https://discord.gg/4fMDbyRw7R).
 
-**Setup**
-
-The user interface requires that the code hashes of the clock contract and the block battalion contract are available onchain. See the UI readme for more information on the pre-requisites for running it. At genesis:
-
-1. The game is an empty 25x25 grid. 
-2. Each player begins by claiming an inital cell in the grid. This is randomly selected by the UI logic, but it isn't required to be a randomly selected cell. 
-3. 
+You can find a detailed description of current gameplay [here](https://ideallabs.substack.com/p/p2p-semi-autonomous-games-part-3).
 
 ## Setup
 
