@@ -1,0 +1,166 @@
+.game-screen {
+    margin: 20px;
+    display: flex;
+    width: 95vw;
+    color: white;
+    justify-content: center;
+}
+
+.load-game-container{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+
+}
+
+.flex-child {
+    flex: 1;
+}
+.game-container {
+    /* overflow: scroll; */
+    max-height: 600px;
+    max-width: 600px;
+    cursor: grab;
+    overflow: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+}
+
+.game-board {
+    font-size: 8px;
+    width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+    background-color: #34495e;
+    color: #fff;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;
+	display: grid;
+	grid-template: repeat(25, 1fr) / repeat(25, 1fr);
+}
+
+.box {
+    border: 6px solid #2c3e50;
+    border-radius: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    border: 6px solid rgb(0, 255, 115);
+}
+
+.menu-btn {
+    /* width: fit-content;
+    height: fit-content; */
+    margin: 20px;
+}
+
+.game-details-container {
+    display: flex;
+}
+
+.players-container {
+    float: left;
+    margin: 10px;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+}
+
+.player-details {
+    display: grid;
+    padding: 10px;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.player-name:hover {
+    color: rgb(218, 218, 218) !important;
+    cursor: pointer;
+}
+
+.cell-details {
+    display: grid;
+    margin: 10px;
+}
+
+.actions-container {
+    /* max-width: 200px; */
+    display: grid;   
+}
+
+.event-config {
+    background-color: #000; /* Black background */
+    padding: 20px;
+    border: 2px solid #FFF; /* White border */
+    border-radius: 10px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    color: #FFF; /* White text */
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    font-size: 12px;
+    width: 80px;
+    border: 1px solid #FFF; /* White border */
+    background-color: #222; /* Dark gray background */
+    color: #FFF; /* White text */
+}
+
+.bit-roulette-modal-container {
+    margin: 100px;
+    position: absolute;
+    background: gray;
+}
+
+.resource-selector {
+    display: flex;
+    /* align-items: center;
+    align-content: center; */
+    justify-content: center;
+}
+
+.resource {
+    cursor: pointer;
+    margin: 10px;
+    padding: 20px;
+    border: solid 2px #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: white;
+}
+
+.resource:hover {
+    background-color: #3c3a53; /* Dark background color on hover */
+    color: #fff; /* White text color on hover */
+}
+
+.selected {
+    background-color: #3c3a53; /* Dark background color on hover */
+}
+
+.left {
+    float: left;
+    margin: 0 auto;
+}
+
+.right {
+    float: right;
+}

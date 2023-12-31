@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext'); */
+
+.App {
+  text-align: center;
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.App-title {
+  /* display: grid; */
+  /* float: left; */
+  margin: 20px;
+  font-size: 30px;
+  /* position: fixed; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  padding: 8px;
+  /* background-color: #282c34; */
+  min-height: 10vh;
+  /* display: flex;
+  flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-family: 'Press Start 2P', cursive;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  width: 100%;
+  float: right;
+  margin-top: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-links {
+  padding: 30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-body {
+  display: grid;
+  align-items: center;
+}
+.wallet-component {
+  /* display: grid; */
+  /* margin: 0 auto; */
+  /* max-width: .5vw; */
+}
+
+/* Style the button */
+.start-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #04c004; /* Green background color */
+  color: #fff; /* White text color */
+  border: 2px solid #333; /* Dark border color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  max-height: 100px;
+}
+
+/* Add hover effect */
+.start-btn:hover {
+  background-color: #3c3a53; /* Dark background color on hover */
+  color: #fff; /* White text color on hover */
+}
+
+.invert {
+  filter: invert(100);
+  border-radius: 100px;
+}
+
+.invert:hover {
+  background-color: #b44848;
+}
+
+.ext-link {
+  padding: 10px;
+  max-width: 40px;
+}
+
+.clickable {
+  cursor: pointer;
+  margin: 15px;
+  font-size: 15px;
+}
+
+/* Pixel art font for a more retro look */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.no-style {
+  text-decoration: none;
+  color: white;
+}
